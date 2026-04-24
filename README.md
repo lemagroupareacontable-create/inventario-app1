@@ -1,2 +1,1 @@
-# inventario-app1
-CONTROLLAR INVENTARIOS
+
