@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Inventario">
   <meta name="theme-color" content="#0f172a">
-  <title>Inventario · LEMA GROUP</title>
+  <title>Inventario Â· LEMA GROUP</title>
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +56,7 @@
       -webkit-tap-highlight-color: transparent;
     }
 
-    /* ── LAYOUT ─────────────────────────────────────── */
+    /* â”€â”€ LAYOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #app {
       display: flex;
       flex-direction: column;
@@ -64,7 +64,7 @@
       height: 100dvh;
     }
 
-    /* ── HEADER ─────────────────────────────────────── */
+    /* â”€â”€ HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #header {
       flex-shrink: 0;
       background: var(--navy);
@@ -124,7 +124,7 @@
       text-transform: uppercase;
     }
 
-    /* ── SCROLL AREA ─────────────────────────────────── */
+    /* â”€â”€ SCROLL AREA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #pages {
       flex: 1;
       overflow: hidden;
@@ -143,7 +143,7 @@
 
     .page.active { display: block; }
 
-    /* ── BOTTOM NAV ──────────────────────────────────── */
+    /* â”€â”€ BOTTOM NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #nav {
       flex-shrink: 0;
       background: var(--navy);
@@ -184,7 +184,7 @@
 
     .nav-item.active .nav-icon { transform: scale(1.1); }
 
-    /* ── CARDS & COMPONENTS ──────────────────────────── */
+    /* â”€â”€ CARDS & COMPONENTS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .card {
       background: var(--card);
       border-radius: var(--radius);
@@ -344,7 +344,7 @@
     tr:last-child td { border-bottom: none; }
     tr:nth-child(even) td { background: #f8fafc; }
 
-    /* ── HOME PAGE ───────────────────────────────────── */
+    /* â”€â”€ HOME PAGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .home-hero {
       background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
       border-radius: 20px;
@@ -401,7 +401,7 @@
     .icon-teal   { background: #e0f2fe; }
     .icon-amber  { background: #fef3c7; }
 
-    /* ── ETIQUETA PREVIEW ────────────────────────────── */
+    /* â”€â”€ ETIQUETA PREVIEW â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .etiqueta-preview {
       background: #fff;
       border: 2px dashed var(--border);
@@ -433,7 +433,7 @@
     .etq-barcode-wrap { display: flex; align-items: flex-end; justify-content: center; }
     .etq-id { text-align: center; font-size: 1.6mm; }
 
-    /* ── FRASES ──────────────────────────────────────── */
+    /* â”€â”€ FRASES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .frase-box {
       background: linear-gradient(135deg, #6d28d9, #4f46e5);
       border-radius: var(--radius);
@@ -569,8 +569,8 @@
 
   <!-- HEADER -->
   <div id="header">
-    <button id="back-btn" onclick="goHome()">←</button>
-    <div class="header-logo">📦</div>
+    <button id="back-btn" onclick="goHome()">â†</button>
+    <div class="header-logo">ðŸ“¦</div>
     <div class="header-info">
       <div class="header-title" id="header-title">Sistema de Inventario</div>
       <div class="header-sub">LEMA GROUP</div>
@@ -583,48 +583,48 @@
     <!-- HOME -->
     <div class="page active" id="page-home">
       <div class="home-hero">
-        <h1>¡Bienvenido! 👋</h1>
-        <p>Selecciona el módulo que deseas usar.</p>
+        <h1>Â¡Bienvenido! ðŸ‘‹</h1>
+        <p>Selecciona el mÃ³dulo que deseas usar.</p>
       </div>
 
       <div class="module-grid">
         <button class="module-btn" onclick="openModule('entradas')">
-          <div class="module-icon icon-blue">📥</div>
+          <div class="module-icon icon-blue">ðŸ“¥</div>
           Entradas
         </button>
         <button class="module-btn" onclick="openModule('salidas')">
-          <div class="module-icon icon-red">📤</div>
+          <div class="module-icon icon-red">ðŸ“¤</div>
           Salidas
         </button>
         <button class="module-btn" onclick="openModule('reportes')">
-          <div class="module-icon icon-purple">📊</div>
+          <div class="module-icon icon-purple">ðŸ“Š</div>
           Reportes
         </button>
         <button class="module-btn" onclick="openModule('consumo')">
-          <div class="module-icon icon-amber">📈</div>
+          <div class="module-icon icon-amber">ðŸ“ˆ</div>
           Consumo
         </button>
       </div>
 
       <div class="module-grid">
         <button class="module-btn" onclick="openModule('existencias')">
-          <div class="module-icon icon-teal">📋</div>
+          <div class="module-icon icon-teal">ðŸ“‹</div>
           Existencias
         </button>
         <button class="module-btn" onclick="openModule('etiquetas')">
-          <div class="module-icon icon-green">🏷️</div>
+          <div class="module-icon icon-green">ðŸ·ï¸</div>
           Etiquetas
         </button>
       </div>
 
-      <button class="btn btn-ghost" style="margin-top:8px" onclick="mostrarFrase()">✨ Frase del día</button>
+      <button class="btn btn-ghost" style="margin-top:8px" onclick="mostrarFrase()">âœ¨ Frase del dÃ­a</button>
       <div id="frase-container" style="margin-top:12px"></div>
     </div>
 
     <!-- ENTRADAS -->
     <div class="page" id="page-entradas">
       <div class="card">
-        <div class="card-title"><span>📥</span> Registro de Entrada</div>
+        <div class="card-title"><span>ðŸ“¥</span> Registro de Entrada</div>
         <div id="entrada-info"></div>
         <div class="form-group">
           <label>ID Bobina</label>
@@ -678,15 +678,15 @@
           <label>Cantidad</label>
           <input id="e-cantidad" type="number" step="0.01" inputmode="decimal">
         </div>
-        <button class="btn btn-primary" id="e-btn" onclick="e_guardar()">💾 Guardar Entrada</button>
-        <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:10px">Vencimiento: 8 dígitos · Ej: 12032026</p>
+        <button class="btn btn-primary" id="e-btn" onclick="e_guardar()">ðŸ’¾ Guardar Entrada</button>
+        <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:10px">Vencimiento: 8 dÃ­gitos Â· Ej: 12032026</p>
       </div>
     </div>
 
     <!-- SALIDAS -->
     <div class="page" id="page-salidas">
       <div class="card">
-        <div class="card-title"><span>📤</span> Registro de Salida</div>
+        <div class="card-title"><span>ðŸ“¤</span> Registro de Salida</div>
         <div class="form-group">
           <label>ID Bobina</label>
           <input id="s-id" placeholder="Ej: 123456" autocomplete="off" inputmode="numeric">
@@ -695,20 +695,20 @@
         <div class="form-group">
           <label>Tipo de movimiento</label>
           <select id="s-tipo" onchange="s_renderForm()">
-            <option value="PRODUCCION">Producción</option>
+            <option value="PRODUCCION">ProducciÃ³n</option>
             <option value="CORTE">Corte</option>
           </select>
         </div>
         <div id="s-form"></div>
-        <button class="btn btn-danger" id="s-btn" onclick="s_guardar()">💾 Guardar Registro</button>
-        <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:10px">En producción se elige la subbobina exacta.</p>
+        <button class="btn btn-danger" id="s-btn" onclick="s_guardar()">ðŸ’¾ Guardar Registro</button>
+        <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:10px">En producciÃ³n se elige la subbobina exacta.</p>
       </div>
     </div>
 
     <!-- REPORTES -->
     <div class="page" id="page-reportes">
       <div class="card">
-        <div class="card-title"><span>📊</span> Reportes</div>
+        <div class="card-title"><span>ðŸ“Š</span> Reportes</div>
         <div class="form-group">
           <label>Modo</label>
           <select id="r-modo" onchange="r_actualizarVista()">
@@ -731,7 +731,7 @@
           <input id="r-id" list="r-listaIds" placeholder="Seleccionar bobina">
           <datalist id="r-listaIds"></datalist>
         </div>
-        <button class="btn btn-primary" id="r-btn" onclick="r_buscar()">🔍 Buscar Reporte</button>
+        <button class="btn btn-primary" id="r-btn" onclick="r_buscar()">ðŸ” Buscar Reporte</button>
       </div>
 
       <div id="r-estado" class="info-box blue" style="display:none"></div>
@@ -750,7 +750,7 @@
     <!-- CONSUMO -->
     <div class="page" id="page-consumo">
       <div class="card">
-        <div class="card-title"><span>📈</span> Reportes de Consumo</div>
+        <div class="card-title"><span>ðŸ“ˆ</span> Reportes de Consumo</div>
         <div class="form-group">
           <label>Modo</label>
           <select id="c-modo" onchange="c_actualizarVista()">
@@ -790,7 +790,7 @@
           <input id="c-op" list="c-listaOps" placeholder="Todos">
           <datalist id="c-listaOps"></datalist>
         </div>
-        <button class="btn btn-primary" id="c-btn" onclick="c_buscar()">🔍 Buscar Reporte</button>
+        <button class="btn btn-primary" id="c-btn" onclick="c_buscar()">ðŸ” Buscar Reporte</button>
       </div>
 
       <div class="stats-grid" id="c-stats" style="display:none">
@@ -806,7 +806,7 @@
     <!-- EXISTENCIAS -->
     <div class="page" id="page-existencias">
       <div class="card">
-        <div class="card-title"><span>📋</span> Existencias por Material</div>
+        <div class="card-title"><span>ðŸ“‹</span> Existencias por Material</div>
         <div class="form-group">
           <label>Tipo de material</label>
           <input id="ex-mat" list="ex-lista" placeholder="Escribe el tipo de material" oninput="ex_cargarCortes()">
@@ -819,14 +819,14 @@
           </select>
         </div>
         <div style="display:flex;gap:10px">
-          <button class="btn btn-primary" style="flex:2" onclick="ex_buscar()">🔍 Buscar</button>
-          <button class="btn btn-ghost" style="flex:1" onclick="ex_limpiar()">✕ Limpiar</button>
+          <button class="btn btn-primary" style="flex:2" onclick="ex_buscar()">ðŸ” Buscar</button>
+          <button class="btn btn-ghost" style="flex:1" onclick="ex_limpiar()">âœ• Limpiar</button>
         </div>
       </div>
 
       <div id="ex-estado" style="display:none" class="info-box amber"></div>
 
-      <button class="btn btn-ghost" style="margin-bottom:14px" onclick="ex_frase()">✨ Frase del día</button>
+      <button class="btn btn-ghost" style="margin-bottom:14px" onclick="ex_frase()">âœ¨ Frase del dÃ­a</button>
       <div id="ex-frase" style="margin-bottom:14px"></div>
 
       <div class="card" id="ex-resultado" style="display:none">
@@ -843,15 +843,15 @@
     <!-- ETIQUETAS -->
     <div class="page" id="page-etiquetas">
       <div class="card">
-        <div class="card-title"><span>🏷️</span> Impresión de Etiquetas</div>
+        <div class="card-title"><span>ðŸ·ï¸</span> ImpresiÃ³n de Etiquetas</div>
         <div class="form-group">
           <label>ID Bobina</label>
           <input id="etq-id" placeholder="Escanea o escribe el ID" autocomplete="off"
             autofocus inputmode="numeric" oninput="etq_manejarInput()" onkeydown="etq_manejarKey(event)">
         </div>
         <div style="display:flex;gap:10px;margin-bottom:10px">
-          <button class="btn btn-primary" style="flex:2" onclick="etq_buscar(true)">🔍 Buscar</button>
-          <button class="btn btn-ghost" style="flex:1" onclick="etq_limpiar()">✕</button>
+          <button class="btn btn-primary" style="flex:2" onclick="etq_buscar(true)">ðŸ” Buscar</button>
+          <button class="btn btn-ghost" style="flex:1" onclick="etq_limpiar()">âœ•</button>
         </div>
         <div id="etq-estado" class="info-box blue" style="display:none"></div>
 
@@ -864,7 +864,7 @@
       </div>
 
       <div class="card" id="etq-preview-card" style="display:none">
-        <div class="card-title"><span>👁️</span> Vista previa</div>
+        <div class="card-title"><span>ðŸ‘ï¸</span> Vista previa</div>
         <div class="etiqueta-preview">
           <div class="etiqueta" id="etq-label">
             <div class="etq-material" id="etq-material">---</div>
@@ -875,7 +875,7 @@
             <div class="etq-id" id="etq-barcode-id"></div>
           </div>
         </div>
-        <button class="btn btn-success" onclick="etq_imprimir()">🖨️ Imprimir Etiqueta</button>
+        <button class="btn btn-success" onclick="etq_imprimir()">ðŸ–¨ï¸ Imprimir Etiqueta</button>
       </div>
     </div>
 
@@ -884,23 +884,23 @@
   <!-- BOTTOM NAV -->
   <nav id="nav">
     <button class="nav-item active" onclick="navTo('home')" id="nav-home">
-      <span class="nav-icon">🏠</span>
+      <span class="nav-icon">ðŸ </span>
       <span>Inicio</span>
     </button>
     <button class="nav-item" onclick="navTo('entradas')" id="nav-entradas">
-      <span class="nav-icon">📥</span>
+      <span class="nav-icon">ðŸ“¥</span>
       <span>Entradas</span>
     </button>
     <button class="nav-item" onclick="navTo('salidas')" id="nav-salidas">
-      <span class="nav-icon">📤</span>
+      <span class="nav-icon">ðŸ“¤</span>
       <span>Salidas</span>
     </button>
     <button class="nav-item" onclick="navTo('existencias')" id="nav-existencias">
-      <span class="nav-icon">📋</span>
+      <span class="nav-icon">ðŸ“‹</span>
       <span>Stock</span>
     </button>
     <button class="nav-item" onclick="navTo('etiquetas')" id="nav-etiquetas">
-      <span class="nav-icon">🏷️</span>
+      <span class="nav-icon">ðŸ·ï¸</span>
       <span>Etiquetas</span>
     </button>
   </nav>
@@ -918,8 +918,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
 <script>
-// ── GLOBALS ─────────────────────────────────────
-const APP_URL = ''; // Se setea dinámicamente desde GAS si se embebe
+// â”€â”€ GLOBALS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+const APP_URL = 'https://script.google.com/macros/s/AKfycbweJEFi-gKrahLinSaBM0soTe_zPPS3zBv_TzHQbgR9Ua2zrum8cKz8f3y6FcG6HrtW/exec';
 let currentPage = 'home';
 let sLock = false;
 let eLock = false;
@@ -931,7 +931,7 @@ let etqTimer = null;
 let etqUltimo = '';
 let fraseTimeout = null;
 
-// ── NAVIGATION ───────────────────────────────────
+// â”€â”€ NAVIGATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function navTo(page) {
   showPage(page);
 }
@@ -967,7 +967,7 @@ function showPage(page) {
   window.scrollTo(0, 0);
 }
 
-// ── UTILS ────────────────────────────────────────
+// â”€â”€ UTILS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function esc(v) {
   return String(v == null ? '' : v)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -1002,30 +1002,38 @@ function closeModal() {
   document.getElementById('modal-overlay').classList.remove('open');
 }
 
-function gsOk() {
-  return typeof google !== 'undefined' && google.script && google.script.run;
+// â”€â”€ API via fetch â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function gas(fn, ...args) {
+  const res = await fetch(APP_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'text/plain' },
+    body: JSON.stringify({ fn, args })
+  });
+  const data = await res.json();
+  if (!data.ok) throw new Error(data.error || 'Error en servidor');
+  return data.result;
 }
 
-// ── FRASES ───────────────────────────────────────
+// â”€â”€ FRASES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const FRASES = [
   "Cada cliente es una nueva oportunidad para crecer.",
   "No vendas solo producto, vende confianza.",
   "La actitud correcta abre puertas antes que cualquier descuento.",
-  "Una buena atención convierte una consulta en una venta.",
-  "Cada llamada puede acercarte a tu próxima gran venta.",
-  "Escuchar bien al cliente también es vender.",
+  "Una buena atenciÃ³n convierte una consulta en una venta.",
+  "Cada llamada puede acercarte a tu prÃ³xima gran venta.",
+  "Escuchar bien al cliente tambiÃ©n es vender.",
   "La constancia diaria construye resultados grandes.",
   "Vender con honestidad crea clientes que regresan.",
-  "Tu energía y tu enfoque también forman parte del producto.",
+  "Tu energÃ­a y tu enfoque tambiÃ©n forman parte del producto.",
   "No vendas productos, soluciona problemas.",
-  "Una buena venta empieza con una buena conversación.",
-  "Si no se pega… no es nuestra etiqueta 😎",
-  "Etiqueta que no se vende hoy, se vende mañana… pero se vende.",
-  "Más rollos, menos estrés.",
-  "¿Qué haces leyendo frases?… ponte a vender 😏",
-  "Ok, ya te motivaste… ahora a vender 🚀",
-  "Motivación + acción = comisión 💰",
-  "Hoy puede ser el día en que cierres ese cliente grande.",
+  "Una buena venta empieza con una buena conversaciÃ³n.",
+  "Si no se pegaâ€¦ no es nuestra etiqueta ðŸ˜Ž",
+  "Etiqueta que no se vende hoy, se vende maÃ±anaâ€¦ pero se vende.",
+  "MÃ¡s rollos, menos estrÃ©s.",
+  "Â¿QuÃ© haces leyendo frases?â€¦ ponte a vender ðŸ˜",
+  "Ok, ya te motivasteâ€¦ ahora a vender ðŸš€",
+  "MotivaciÃ³n + acciÃ³n = comisiÃ³n ðŸ’°",
+  "Hoy puede ser el dÃ­a en que cierres ese cliente grande.",
   "El que no ofrece, no vende.",
   "Si no hay pedido, hay seguimiento."
 ];
@@ -1037,7 +1045,7 @@ function mostrarFrase() {
   const f = fraseAleatoria();
   c.innerHTML = `
     <div class="frase-box">
-      <button class="frase-close" onclick="document.getElementById('frase-container').innerHTML=''">×</button>
+      <button class="frase-close" onclick="document.getElementById('frase-container').innerHTML=''">Ã—</button>
       <div class="frase-text">${esc(f)}</div>
     </div>`;
 }
@@ -1047,44 +1055,44 @@ function ex_frase() {
   const f = fraseAleatoria();
   c.innerHTML = `
     <div class="frase-box">
-      <button class="frase-close" onclick="document.getElementById('ex-frase').innerHTML=''">×</button>
+      <button class="frase-close" onclick="document.getElementById('ex-frase').innerHTML=''">Ã—</button>
       <div class="frase-text">${esc(f)}</div>
     </div>`;
 }
 
-// ── ENTRADAS ──────────────────────────────────────
-function e_cargarListas() {
-  if (!gsOk()) return;
-  google.script.run.withSuccessHandler(data => {
+// â”€â”€ ENTRADAS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function e_cargarListas() {
+  try {
+    const data = await gas('getDataList');
     llenar('e-listaMaterial', data.materiales || []);
     llenar('e-listaMedida', data.medidas || []);
     llenar('e-listaProveedor', data.proveedores || []);
-  }).getDataList();
+  } catch(e) {}
 }
 
-function e_cargarProductos() {
-  if (!gsOk()) return;
+async function e_cargarProductos() {
   const mat = document.getElementById('e-material').value.trim();
-  google.script.run.withSuccessHandler(arr => {
+  try {
+    const arr = await gas('getProductosPorMaterial', mat);
     llenar('e-listaProducto', arr || []);
-  }).getProductosPorMaterial(mat);
+  } catch(e) {}
 }
 
-function e_consultarBobina() {
+async function e_consultarBobina() {
   const id = document.getElementById('e-id').value.trim();
   const box = document.getElementById('entrada-info');
   if (!id) { box.innerHTML = ''; return; }
-  if (!gsOk()) return;
-  google.script.run.withSuccessHandler(data => {
+  try {
+    const data = await gas('getInfoEntrada', id);
     if (data.existe) {
       box.innerHTML = `<div class="info-box green"><b>Bobina existente</b><br>Material: ${esc(data.info.material || '')}<br>Saldo actual: <b>${data.info.saldo || 0}</b></div>`;
     } else {
-      box.innerHTML = `<div class="info-box blue"><b>Nueva bobina</b><br>Se registrará como ingreso nuevo.</div>`;
+      box.innerHTML = `<div class="info-box blue"><b>Nueva bobina</b><br>Se registrarÃ¡ como ingreso nuevo.</div>`;
     }
-  }).getInfoEntrada(id);
+  } catch(e) { box.innerHTML = ''; }
 }
 
-function e_guardar() {
+async function e_guardar() {
   if (eLock) return;
   const d = {
     id: document.getElementById('e-id').value.trim(),
@@ -1099,30 +1107,25 @@ function e_guardar() {
     cantidad: Number(document.getElementById('e-cantidad').value || 0)
   };
 
-  if (!d.id) return toast('⚠️ Falta ID Bobina');
-  if (!d.producto) return toast('⚠️ Falta Producto');
-  if (!d.material) return toast('⚠️ Falta Material');
-  if (!d.medida) return toast('⚠️ Falta Medida');
-  if (!d.proveedor) return toast('⚠️ Falta Proveedor');
-  if (d.cantidad <= 0) return toast('⚠️ Cantidad inválida');
-  if (d.vencimiento && !/^\d{8}$/.test(d.vencimiento)) return toast('⚠️ Vencimiento: 8 dígitos. Ej: 12032026');
-  if (!gsOk()) return toast('⚠️ Google Script no disponible');
+  if (!d.id) return toast('âš ï¸ Falta ID Bobina');
+  if (!d.producto) return toast('âš ï¸ Falta Producto');
+  if (!d.material) return toast('âš ï¸ Falta Material');
+  if (!d.medida) return toast('âš ï¸ Falta Medida');
+  if (!d.proveedor) return toast('âš ï¸ Falta Proveedor');
+  if (d.cantidad <= 0) return toast('âš ï¸ Cantidad invÃ¡lida');
+  if (d.vencimiento && !/^\d{8}$/.test(d.vencimiento)) return toast('âš ï¸ Vencimiento: 8 dÃ­gitos. Ej: 12032026');
 
   eLock = true;
   const btn = document.getElementById('e-btn');
-  btn.textContent = '⏳ Guardando...';
-  btn.disabled = true;
-
-  google.script.run
-    .withSuccessHandler(() => {
-      eLock = false; btn.textContent = '💾 Guardar Entrada'; btn.disabled = false;
-      e_limpiar(); toast('✅ Entrada guardada correctamente');
-    })
-    .withFailureHandler(err => {
-      eLock = false; btn.textContent = '💾 Guardar Entrada'; btn.disabled = false;
-      toast('❌ Error: ' + (err.message || err));
-    })
-    .registrarEntrada(d);
+  btn.textContent = 'â³ Guardando...'; btn.disabled = true;
+  try {
+    await gas('registrarEntrada', d);
+    eLock = false; btn.textContent = 'ðŸ’¾ Guardar Entrada'; btn.disabled = false;
+    e_limpiar(); toast('âœ… Entrada guardada correctamente');
+  } catch(err) {
+    eLock = false; btn.textContent = 'ðŸ’¾ Guardar Entrada'; btn.disabled = false;
+    toast('âŒ Error: ' + (err.message || err));
+  }
 }
 
 function e_limpiar() {
@@ -1135,21 +1138,20 @@ function e_limpiar() {
 document.getElementById('e-id').addEventListener('blur', e_consultarBobina);
 e_cargarListas();
 
-// ── SALIDAS ───────────────────────────────────────
-function s_consultarBobina() {
+// â”€â”€ SALIDAS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function s_consultarBobina() {
   const id = document.getElementById('s-id').value.trim();
   const box = document.getElementById('s-info');
   if (!id) { box.innerHTML = ''; sProductos = []; s_renderForm(); return; }
-  if (!gsOk()) return;
-
-  google.script.run.withSuccessHandler(data => {
+  try {
+    const data = await gas('getInfoEntrada', id);
     let html = '';
     if (data.existe) {
       html += `<div class="info-box green"><b>Bobina encontrada</b><br>Material: ${esc(data.info.material || '')}<br>Saldo: <b>${data.info.saldo || 0}</b></div>`;
       if (data.productos && data.productos.length) {
         sProductos = data.productos;
         data.productos.forEach(p => {
-          html += `<div class="info-box blue" style="margin-top:6px"><b>${esc(p.nombre)}</b> → ${p.saldo || 0}</div>`;
+          html += `<div class="info-box blue" style="margin-top:6px"><b>${esc(p.nombre)}</b> â†’ ${p.saldo || 0}</div>`;
         });
       } else {
         html += `<div class="info-box red" style="margin-top:6px">Sin productos en detalle.</div>`;
@@ -1161,7 +1163,7 @@ function s_consultarBobina() {
     }
     box.innerHTML = html;
     s_renderForm();
-  }).getInfoEntrada(id);
+  } catch(e) { box.innerHTML = ''; sProductos = []; s_renderForm(); }
 }
 
 function s_renderForm() {
@@ -1188,7 +1190,7 @@ function s_renderForm() {
         </div>
         <div class="form-group">
           <label>OP</label>
-          <input id="sp-op" inputmode="numeric" placeholder="Solo números">
+          <input id="sp-op" inputmode="numeric" placeholder="Solo nÃºmeros">
         </div>
       </div>
       <div class="form-group">
@@ -1201,7 +1203,7 @@ function s_renderForm() {
         <input id="sp-rollos" placeholder="Ej: 2 x 1000">
       </div>
       <div class="form-group">
-        <label>Observación</label>
+        <label>ObservaciÃ³n</label>
         <textarea id="sp-observacion" placeholder="Nota adicional"></textarea>
       </div>`;
     s_cargarClientes();
@@ -1233,19 +1235,19 @@ function s_renderForm() {
   }
 }
 
-function s_cargarClientes() {
-  if (!gsOk()) return;
-  google.script.run.withSuccessHandler(data => {
+async function s_cargarClientes() {
+  try {
+    const data = await gas('getClientesVentas');
     sClientesVentas = data || [];
     llenar('s-listaClientes', sClientesVentas);
-  }).getClientesVentas();
+  } catch(e) {}
 }
 
-function s_cargarProductosGlobal() {
-  if (!gsOk()) return;
-  google.script.run.withSuccessHandler(data => {
+async function s_cargarProductosGlobal() {
+  try {
+    const data = await gas('getDataList');
     llenar('s-listaProductos', data.productos || []);
-  }).getDataList();
+  } catch(e) {}
 }
 
 function s_preview() {
@@ -1261,9 +1263,9 @@ function s_preview() {
   }
   const anchoO = Number(String(origen).match(/\d+(\.\d+)?/)?.[0] || 0);
   const anchoD = Number(String(destino).match(/\d+(\.\d+)?/)?.[0] || 0);
-  if (anchoD <= 0) { box.innerHTML = '<div class="info-box red">Destino inválido.</div>'; return; }
+  if (anchoD <= 0) { box.innerHTML = '<div class="info-box red">Destino invÃ¡lido.</div>'; return; }
   const tiras = Math.floor(anchoO / anchoD);
-  if (tiras <= 0) { box.innerHTML = '<div class="info-box red">Corte inválido.</div>'; return; }
+  if (tiras <= 0) { box.innerHTML = '<div class="info-box red">Corte invÃ¡lido.</div>'; return; }
   const metro = cantidad * tiras;
   let html = `<div class="info-box blue"><b>Resultado del corte</b><br>Tiras: <b>${tiras}</b><br>Metros destino: <b>${metro}</b>`;
   const resto = anchoO - tiras * anchoD;
@@ -1272,18 +1274,16 @@ function s_preview() {
   box.innerHTML = html;
 }
 
-function s_guardar() {
+async function s_guardar() {
   if (sLock) return;
   const id = document.getElementById('s-id').value.trim();
   const tipo = document.getElementById('s-tipo').value;
-  if (!id) return toast('⚠️ Falta ID Bobina');
-  if (!gsOk()) return toast('⚠️ Google Script no disponible');
+  if (!id) return toast('âš ï¸ Falta ID Bobina');
 
   sLock = true;
   const btn = document.getElementById('s-btn');
-  btn.textContent = '⏳ Guardando...'; btn.disabled = true;
-
-  const reset = () => { sLock = false; btn.textContent = '💾 Guardar Registro'; btn.disabled = false; };
+  btn.textContent = 'â³ Guardando...'; btn.disabled = true;
+  const reset = () => { sLock = false; btn.textContent = 'ðŸ’¾ Guardar Registro'; btn.disabled = false; };
 
   if (tipo === 'PRODUCCION') {
     const d = {
@@ -1296,12 +1296,12 @@ function s_guardar() {
       rollos: document.getElementById('sp-rollos').value.trim(),
       observacion: document.getElementById('sp-observacion').value.trim()
     };
-    if (!d.producto) { reset(); return toast('⚠️ Falta producto'); }
-    if (d.cantidad <= 0) { reset(); return toast('⚠️ Cantidad inválida'); }
-    google.script.run
-      .withSuccessHandler(() => { reset(); s_limpiar(); toast('✅ Producción guardada'); })
-      .withFailureHandler(err => { reset(); toast('❌ ' + (err.message || err)); })
-      .registrarProduccion(d);
+    if (!d.producto) { reset(); return toast('âš ï¸ Falta producto'); }
+    if (d.cantidad <= 0) { reset(); return toast('âš ï¸ Cantidad invÃ¡lida'); }
+    try {
+      await gas('registrarProduccion', d);
+      reset(); s_limpiar(); toast('âœ… ProducciÃ³n guardada');
+    } catch(err) { reset(); toast('âŒ ' + (err.message || err)); }
   } else {
     const d = {
       id,
@@ -1310,13 +1310,13 @@ function s_guardar() {
       cantidad: Number(document.getElementById('sc-cantidad').value || 0),
       merma: Number(document.getElementById('sc-merma').value || 0)
     };
-    if (!d.origen) { reset(); return toast('⚠️ Falta origen'); }
-    if (!d.destino) { reset(); return toast('⚠️ Falta destino'); }
-    if (d.cantidad <= 0) { reset(); return toast('⚠️ Cantidad inválida'); }
-    google.script.run
-      .withSuccessHandler(() => { reset(); s_limpiar(); toast('✅ Corte guardado'); })
-      .withFailureHandler(err => { reset(); toast('❌ ' + (err.message || err)); })
-      .registrarCorte(d);
+    if (!d.origen) { reset(); return toast('âš ï¸ Falta origen'); }
+    if (!d.destino) { reset(); return toast('âš ï¸ Falta destino'); }
+    if (d.cantidad <= 0) { reset(); return toast('âš ï¸ Cantidad invÃ¡lida'); }
+    try {
+      await gas('registrarCorte', d);
+      reset(); s_limpiar(); toast('âœ… Corte guardado');
+    } catch(err) { reset(); toast('âŒ ' + (err.message || err)); }
   }
 }
 
@@ -1330,43 +1330,37 @@ function s_limpiar() {
 document.getElementById('s-id').addEventListener('blur', s_consultarBobina);
 s_renderForm();
 
-// ── REPORTES ──────────────────────────────────────
-function r_cargarOpciones() {
-  if (!gsOk()) return;
-  google.script.run
-    .withSuccessHandler(data => { llenar('r-listaIds', data.ids || []); r_actualizarVista(); })
-    .getOpcionesReportes();
+// â”€â”€ REPORTES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function r_cargarOpciones() {
+  try {
+    const data = await gas('getOpcionesReportes');
+    llenar('r-listaIds', data.ids || []);
+  } catch(e) {}
 }
 
 function r_actualizarVista() {}
 
-function r_buscar() {
-  if (!gsOk()) return toast('⚠️ Google Script no disponible');
+async function r_buscar() {
   const btn = document.getElementById('r-btn');
-  btn.textContent = '⏳ Buscando...'; btn.disabled = true;
-
+  btn.textContent = 'â³ Buscando...'; btn.disabled = true;
   const estado = document.getElementById('r-estado');
   estado.style.display = 'block'; estado.className = 'info-box blue'; estado.textContent = 'Consultando...';
-
   const filtros = {
     modo: document.getElementById('r-modo').value,
     desde: document.getElementById('r-desde').value,
     hasta: document.getElementById('r-hasta').value,
     idBobina: document.getElementById('r-id').value.trim()
   };
-
-  google.script.run
-    .withSuccessHandler(data => {
-      btn.textContent = '🔍 Buscar Reporte'; btn.disabled = false;
-      if (data.error) { estado.className = 'info-box red'; estado.textContent = 'Error: ' + data.error; return; }
-      estado.style.display = 'none';
-      r_render(data);
-    })
-    .withFailureHandler(err => {
-      btn.textContent = '🔍 Buscar Reporte'; btn.disabled = false;
-      estado.className = 'info-box red'; estado.textContent = 'Error: ' + (err.message || err);
-    })
-    .getReporteSegunModo(filtros);
+  try {
+    const data = await gas('getReporteSegunModo', filtros);
+    btn.textContent = 'ðŸ” Buscar Reporte'; btn.disabled = false;
+    if (data.error) { estado.className = 'info-box red'; estado.textContent = 'Error: ' + data.error; return; }
+    estado.style.display = 'none';
+    r_render(data);
+  } catch(err) {
+    btn.textContent = 'ðŸ” Buscar Reporte'; btn.disabled = false;
+    estado.className = 'info-box red'; estado.textContent = 'Error: ' + (err.message || err);
+  }
 }
 
 function r_render(data) {
@@ -1417,18 +1411,16 @@ function r_render(data) {
 
 r_cargarOpciones();
 
-// ── CONSUMO ───────────────────────────────────────
-function c_cargarOpciones() {
-  if (!gsOk()) return;
-  google.script.run
-    .withSuccessHandler(data => {
-      llenar('c-listaMateriales', data.materiales || []);
-      llenar('c-listaIds', data.ids || []);
-      llenar('c-listaClientes', data.clientes || []);
-      llenar('c-listaOps', data.ops || []);
-      c_actualizarVista();
-    })
-    .getOpcionesConsumo();
+// â”€â”€ CONSUMO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function c_cargarOpciones() {
+  try {
+    const data = await gas('getOpcionesConsumo');
+    llenar('c-listaMateriales', data.materiales || []);
+    llenar('c-listaIds', data.ids || []);
+    llenar('c-listaClientes', data.clientes || []);
+    llenar('c-listaOps', data.ops || []);
+    c_actualizarVista();
+  } catch(e) {}
 }
 
 function c_actualizarVista() {
@@ -1439,11 +1431,9 @@ function c_actualizarVista() {
   document.getElementById('c-wrapOp').style.display = modo === 'DETALLE_CONSUMO' ? '' : 'none';
 }
 
-function c_buscar() {
-  if (!gsOk()) return toast('⚠️ Google Script no disponible');
+async function c_buscar() {
   const btn = document.getElementById('c-btn');
-  btn.textContent = '⏳ Buscando...'; btn.disabled = true;
-
+  btn.textContent = 'â³ Buscando...'; btn.disabled = true;
   const filtros = {
     modo: document.getElementById('c-modo').value,
     desde: document.getElementById('c-desde').value,
@@ -1453,18 +1443,15 @@ function c_buscar() {
     cliente: document.getElementById('c-cliente').value.trim(),
     op: document.getElementById('c-op').value.trim()
   };
-
-  google.script.run
-    .withSuccessHandler(data => {
-      btn.textContent = '🔍 Buscar Reporte'; btn.disabled = false;
-      if (data.error) { toast('❌ ' + data.error); return; }
-      c_render(data);
-    })
-    .withFailureHandler(err => {
-      btn.textContent = '🔍 Buscar Reporte'; btn.disabled = false;
-      toast('❌ ' + (err.message || err));
-    })
-    .getReporteConsumo(filtros);
+  try {
+    const data = await gas('getReporteConsumo', filtros);
+    btn.textContent = 'ðŸ” Buscar Reporte'; btn.disabled = false;
+    if (data.error) { toast('âŒ ' + data.error); return; }
+    c_render(data);
+  } catch(err) {
+    btn.textContent = 'ðŸ” Buscar Reporte'; btn.disabled = false;
+    toast('âŒ ' + (err.message || err));
+  }
 }
 
 function c_render(data) {
@@ -1504,47 +1491,45 @@ function c_render(data) {
 
 c_cargarOpciones();
 
-// ── EXISTENCIAS ───────────────────────────────────
-function ex_cargarMateriales() {
-  if (!gsOk()) return;
-  google.script.run.withSuccessHandler(res => { llenar('ex-lista', res || []); }).repExistMatObtenerMateriales();
+// â”€â”€ EXISTENCIAS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function ex_cargarMateriales() {
+  try {
+    const res = await gas('repExistMatObtenerMateriales');
+    llenar('ex-lista', res || []);
+  } catch(e) {}
 }
 
-function ex_cargarCortes() {
+async function ex_cargarCortes() {
   const mat = document.getElementById('ex-mat').value;
   const sel = document.getElementById('ex-corte');
   sel.innerHTML = '<option value="TODOS">TODOS</option>';
-  if (!mat || !gsOk()) return;
-  google.script.run.withSuccessHandler(res => {
+  if (!mat) return;
+  try {
+    const res = await gas('repExistMatObtenerCortes', mat);
     (res || []).forEach(x => { sel.innerHTML += `<option value="${esc(x)}">${esc(x)}</option>`; });
-  }).repExistMatObtenerCortes(mat);
+  } catch(e) {}
 }
 
-function ex_buscar() {
+async function ex_buscar() {
   const mat = document.getElementById('ex-mat').value;
   const corte = document.getElementById('ex-corte').value;
   const est = document.getElementById('ex-estado');
-
   if (!mat) { est.style.display = 'block'; est.textContent = 'Escribe un material primero'; return; }
-  if (!gsOk()) { est.style.display = 'block'; est.textContent = 'Google Script no disponible'; return; }
-
   est.style.display = 'block'; est.textContent = 'Buscando...';
-
-  google.script.run.withSuccessHandler(res => {
+  try {
+    const res = await gas('repExistMatBuscar', mat, corte);
     est.style.display = 'none';
     const card = document.getElementById('ex-resultado');
     const tbody = document.getElementById('ex-tbody');
-    if (!res.data || !res.data.length) {
-      toast('Sin resultados para ' + mat); return;
-    }
+    if (!res.data || !res.data.length) { toast('Sin resultados para ' + mat); return; }
     card.style.display = 'block';
-    document.getElementById('ex-titulo').innerHTML = `<span>📋</span> ${esc(res.material)}`;
+    document.getElementById('ex-titulo').innerHTML = `<span>ðŸ“‹</span> ${esc(res.material)}`;
     let total = 0;
     tbody.innerHTML = res.data.map((r, i) => {
       total += Number(r.saldo);
       return `<tr><td>${i+1}</td><td>${esc(r.corte)}</td><td>${Number(r.saldo).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}</td></tr>`;
     }).join('') + `<tr style="font-weight:700;background:#dbeafe"><td></td><td>TOTAL</td><td>${total.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}</td></tr>`;
-  }).repExistMatBuscar(mat, corte);
+  } catch(err) { est.className = 'info-box red'; est.textContent = 'Error: ' + (err.message || err); }
 }
 
 function ex_limpiar() {
@@ -1556,36 +1541,33 @@ function ex_limpiar() {
 
 ex_cargarMateriales();
 
-// ── ETIQUETAS ─────────────────────────────────────
-function etq_buscar(forzar) {
+// â”€â”€ ETIQUETAS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function etq_buscar(forzar) {
   const id = document.getElementById('etq-id').value.trim();
   const est = document.getElementById('etq-estado');
-  if (!id) { est.style.display = 'block'; est.textContent = '⚠️ Ingresa un ID'; return; }
+  if (!id) { est.style.display = 'block'; est.textContent = 'âš ï¸ Ingresa un ID'; return; }
   if (etqBuscando) return;
   if (!forzar && id === etqUltimo && etqActual) return;
-  if (!gsOk()) { est.style.display = 'block'; est.textContent = '⚠️ Google Script no disponible'; return; }
 
   etqBuscando = true; etqUltimo = id;
-  est.style.display = 'block'; est.className = 'info-box blue'; est.textContent = '🔍 Buscando...';
+  est.style.display = 'block'; est.className = 'info-box blue'; est.textContent = 'ðŸ” Buscando...';
   document.getElementById('etq-preview-card').style.display = 'none';
   document.getElementById('etq-corte-wrap').style.display = 'none';
 
-  google.script.run
-    .withSuccessHandler(data => {
-      etqBuscando = false;
-      if (!data) { est.textContent = '❌ No encontrado'; est.className = 'info-box red'; return; }
-      etqActual = data;
-      etq_cargarCortes(data.cortes, data.corteSeleccionado);
-      etq_renderEtiqueta(data);
-      est.className = 'info-box green'; est.textContent = '✅ Bobina encontrada';
-      document.getElementById('etq-preview-card').style.display = 'block';
-      document.getElementById('etq-corte-wrap').style.display = 'block';
-    })
-    .withFailureHandler(err => {
-      etqBuscando = false;
-      est.className = 'info-box red'; est.textContent = '❌ Error: ' + (err.message || err);
-    })
-    .obtenerDatosEtiqueta(id);
+  try {
+    const data = await gas('obtenerDatosEtiqueta', id);
+    etqBuscando = false;
+    if (!data) { est.textContent = 'âŒ No encontrado'; est.className = 'info-box red'; return; }
+    etqActual = data;
+    etq_cargarCortes(data.cortes, data.corteSeleccionado);
+    etq_renderEtiqueta(data);
+    est.className = 'info-box green'; est.textContent = 'âœ… Bobina encontrada';
+    document.getElementById('etq-preview-card').style.display = 'block';
+    document.getElementById('etq-corte-wrap').style.display = 'block';
+  } catch(err) {
+    etqBuscando = false;
+    est.className = 'info-box red'; est.textContent = 'âŒ Error: ' + (err.message || err);
+  }
 }
 
 function etq_cargarCortes(cortes, sel) {
@@ -1624,24 +1606,22 @@ function etq_renderEtiqueta(data) {
   }
 }
 
-function etq_cambiarCorte() {
+async function etq_cambiarCorte() {
   const id = document.getElementById('etq-id').value.trim();
   const corte = document.getElementById('etq-corte').value;
-  if (!id || !corte || !gsOk()) return;
+  if (!id || !corte) return;
   const est = document.getElementById('etq-estado');
   est.style.display = 'block'; est.className = 'info-box blue'; est.textContent = 'Actualizando corte...';
-  google.script.run
-    .withSuccessHandler(data => {
-      if (!data) { est.textContent = 'No se pudo actualizar'; est.className = 'info-box red'; return; }
-      etqActual = data; etq_renderEtiqueta(data);
-      est.className = 'info-box green'; est.textContent = '✅ Corte actualizado';
-    })
-    .withFailureHandler(err => { est.className = 'info-box red'; est.textContent = '❌ ' + (err.message || err); })
-    .obtenerVistaCorte(id, corte);
+  try {
+    const data = await gas('obtenerVistaCorte', id, corte);
+    if (!data) { est.textContent = 'No se pudo actualizar'; est.className = 'info-box red'; return; }
+    etqActual = data; etq_renderEtiqueta(data);
+    est.className = 'info-box green'; est.textContent = 'âœ… Corte actualizado';
+  } catch(err) { est.className = 'info-box red'; est.textContent = 'âŒ ' + (err.message || err); }
 }
 
 function etq_imprimir() {
-  if (!etqActual) { toast('⚠️ Primero busca una bobina'); return; }
+  if (!etqActual) { toast('âš ï¸ Primero busca una bobina'); return; }
   window.print();
 }
 
@@ -1672,14 +1652,14 @@ function etq_manejarInput() {
   }
 }
 
-// ── SERVICE WORKER ────────────────────────────────
+// â”€â”€ SERVICE WORKER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
   });
 }
 
-// ── PRINT STYLES ─────────────────────────────────
+// â”€â”€ PRINT STYLES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const printStyle = document.createElement('style');
 printStyle.textContent = `
 @page { size: 50mm 25mm; margin: 0; }
